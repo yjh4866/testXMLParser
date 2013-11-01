@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XMLParser.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString*xml = @"<root><name><child><childchild></childchild></child><child></child></name><name1></name1></root>";
+    
+    XMLNode *rootNode = [xml xmlNodeWithEncoding:NSUTF8StringEncoding];
+    NSLog(@"%@", rootNode);
 }
 
 - (void)didReceiveMemoryWarning

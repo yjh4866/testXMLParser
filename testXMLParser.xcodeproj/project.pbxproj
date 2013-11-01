@@ -19,6 +19,7 @@
 		B16714DF1823DD8E00107A41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16714DE1823DD8E00107A41 /* ViewController.m */; };
 		B16714E21823DD8E00107A41 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16714E01823DD8E00107A41 /* ViewController_iPhone.xib */; };
 		B16714E51823DD8E00107A41 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16714E31823DD8E00107A41 /* ViewController_iPad.xib */; };
+		B16714ED1823DDAB00107A41 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B16714EC1823DDAB00107A41 /* XMLParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		B16714DE1823DD8E00107A41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B16714E11823DD8E00107A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		B16714E41823DD8E00107A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B16714EB1823DDAB00107A41 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		B16714EC1823DDAB00107A41 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				B16714D51823DD8E00107A41 /* AppDelegate.m */,
 				B16714DD1823DD8E00107A41 /* ViewController.h */,
 				B16714DE1823DD8E00107A41 /* ViewController.m */,
+				B16714EB1823DDAB00107A41 /* XMLParser.h */,
+				B16714EC1823DDAB00107A41 /* XMLParser.m */,
 				B16714E01823DD8E00107A41 /* ViewController_iPhone.xib */,
 				B16714E31823DD8E00107A41 /* ViewController_iPad.xib */,
 				B16714CC1823DD8E00107A41 /* Supporting Files */,
@@ -180,6 +185,7 @@
 				B16714D21823DD8E00107A41 /* main.m in Sources */,
 				B16714D61823DD8E00107A41 /* AppDelegate.m in Sources */,
 				B16714DF1823DD8E00107A41 /* ViewController.m in Sources */,
+				B16714ED1823DDAB00107A41 /* XMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testXMLParser/testXMLParser-Prefix.pch";
 				INFOPLIST_FILE = "testXMLParser/testXMLParser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -286,6 +293,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testXMLParser/testXMLParser-Prefix.pch";
 				INFOPLIST_FILE = "testXMLParser/testXMLParser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
